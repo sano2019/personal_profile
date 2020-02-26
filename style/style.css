@@ -1,0 +1,148 @@
+body {
+  background-color: #26ced6;
+  font-family: 'Source Code Pro';
+  color:#222831;
+}
+
+h1 {
+  font-family: 'Dancing Script';
+  font-size: 5em;
+  font-weight: 400;
+  line-height: 15px;
+  color: #393e46;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 25px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #EEEEEE;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 40px;
+  display: inline;
+}
+
+p {
+  padding: 0 10px 0 10px;
+  text-align: justify;
+}
+
+.container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  border: 1px solid #EEEEEE;
+  margin-top: 10px;
+  padding: 0 15px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px #EEEEEE;
+  text-align: center;
+}
+
+.fab{
+  margin: 20px 5px 10px;
+}
+
+.fas-left {
+  color:#EEEEEE;
+  font-size: 100px;
+  margin: auto 10px;
+  padding: 10px 0 10px;
+}
+
+.fas-right {
+  color:#EEEEEE;
+  font-size: 100px;
+  margin: auto 10px;
+}
+
+.fas:hover {
+  color: #393e46;
+}
+
+.flex {
+  display:flex;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #393e46;
+  margin: 10px auto 10px auto;
+  display:block;
+}
+
+#description {
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+  color: #EEEEEE;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  .fas-left {
+  color:#EEEEEE;
+  font-size: 50px;
+  margin: auto 10px;
+  padding: 10px 0 10px;
+}
+
+.fas-right {
+  color:#EEEEEE;
+  font-size: 50px;
+  margin: auto 10px;
+}
+.flex{
+  flex-direction: column;
+}
+
+.flex-right{
+  flex-direction: column-reverse;
+}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+    h2{
+    font-size: 1em;
+  }
+}
